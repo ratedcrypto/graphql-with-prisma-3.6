@@ -1,0 +1,25 @@
+{
+  "name": "blog-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.ts --ext ts,js,graphql --exec ts-node",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^3.6.0",
+    "apollo-server": "^3.5.0",
+    "graphql": "^15.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.12",
+    "nodemon": "^2.0.15",
+    "prisma": "^3.6.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.2"
+  }
+}
