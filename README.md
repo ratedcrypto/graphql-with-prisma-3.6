@@ -1,4 +1,4 @@
-# graphql-with-prisma-3.6
+# graphql-with-apollo-server-and-prisma-v3.6
 
 ## Environment variables
 
